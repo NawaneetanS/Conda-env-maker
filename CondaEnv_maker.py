@@ -31,7 +31,7 @@ optional_tools = {
     "8": "deeptools",     # For ATAC-seq, ChIP-seq visualization
     "9": "qualimap",      # BAM quality checks, useful for RNA-seq
     "10": "subread",      # FeatureCounts + alignment
-    "11": "star",         # RNA-seq alignment (fast, accurate)
+    "11": "hisat2",         # RNA-seq alignment (fast, accurate)
 }
 
 # Print a list of optional tools available
@@ -48,7 +48,6 @@ if not selected_opTools:
 core_tools = [
     "fastqc",
     "fastp",
-    "hisat2",
     "bwa",
     "samtools",
     "sra-tools",
