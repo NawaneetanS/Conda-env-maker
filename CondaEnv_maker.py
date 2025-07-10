@@ -48,7 +48,7 @@ if not selected_opTools:
 core_tools = [
     "fastqc",
     "fastp",
-    "bwa",
+    "bwa-mem2",
     "samtools",
     "sra-tools",
     "multiqc",

@@ -6,7 +6,7 @@
 - **fastqc** – Quality control checks on raw FASTQ files  
 - **fastp** – Fast and efficient adapter trimming and quality filtering  
 - **hisat2** – Spliced aligner for RNA-seq reads  
-- **bwa** – Fast and accurate aligner for DNA sequences  
+- **bwa-mem2** – Newer version of bwa for indexing of WGS/WXS samples 
 - **samtools** – Manipulation and conversion of SAM/BAM files  
 - **sra-tools** – Download and convert sequencing data from NCBI SRA  
 - **multiqc** – Aggregates results from QC tools like FastQC into a single report
