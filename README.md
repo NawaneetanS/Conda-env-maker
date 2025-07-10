@@ -5,8 +5,7 @@
 ## Core Tools
 - **fastqc** – Quality control checks on raw FASTQ files  
 - **fastp** – Fast and efficient adapter trimming and quality filtering  
-- **hisat2** – Spliced aligner for RNA-seq reads  
-- **bwa-mem2** – Newer version of bwa for indexing of WGS/WXS samples 
+- **hisat2** – Spliced aligner for RNA-seq reads  s 
 - **samtools** – Manipulation and conversion of SAM/BAM files  
 - **sra-tools** – Download and convert sequencing data from NCBI SRA  
 - **multiqc** – Aggregates results from QC tools like FastQC into a single report
@@ -24,3 +23,5 @@
 - **qualimap** – BAM quality checks, useful for RNA-seq  
 - **subread** – FeatureCounts + alignment  
 - **star** – RNA-seq alignment (fast, accurate)
+- **bwa** - Older wgs/wxs alignment tool
+- **bwa-mem2** - newer wgs/wxs alignment tool

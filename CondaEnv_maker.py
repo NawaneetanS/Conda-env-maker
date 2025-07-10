@@ -22,7 +22,7 @@ while True:
 
 optional_tools = {
     "1": "picard",        # BAM file cleanup, marking duplicates, etc.
-    "2": "gatk4",          # Variant calling and genome analysis toolkit
+    "2": "gatk4",         # Variant calling and genome analysis toolkit
     "3": "htseq",         # Read counting for RNA-seq
     "4": "stringtie",     # Transcript assembly and quantification
     "5": "cutadapt",      # Adapter trimming (alternative to fastp)
@@ -31,7 +31,9 @@ optional_tools = {
     "8": "deeptools",     # For ATAC-seq, ChIP-seq visualization
     "9": "qualimap",      # BAM quality checks, useful for RNA-seq
     "10": "subread",      # FeatureCounts + alignment
-    "11": "hisat2",         # RNA-seq alignment (fast, accurate)
+    "11": "hisat2",       # RNA-seq alignment (fast, accurate)
+    "12": "bwa",          # Older bwa - wgs/wxs alignment tool
+    "13": "bwa-mem2"      # Newer bwa - newer wgs/wxs alignment tool
 }
 
 # Print a list of optional tools available
@@ -48,7 +50,6 @@ if not selected_opTools:
 core_tools = [
     "fastqc",
     "fastp",
-    "bwa-mem2",
     "samtools",
     "sra-tools",
     "multiqc",
