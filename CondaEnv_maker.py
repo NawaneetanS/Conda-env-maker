@@ -51,7 +51,8 @@ core_tools = [
     "bwa",
     "samtools",
     "sra-tools",
-    "multiqc"
+    "multiqc",
+    "pigz",
 ]
 
 # All req tools

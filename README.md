@@ -10,6 +10,7 @@
 - **samtools** – Manipulation and conversion of SAM/BAM files  
 - **sra-tools** – Download and convert sequencing data from NCBI SRA  
 - **multiqc** – Aggregates results from QC tools like FastQC into a single report
+- **pigz** - Compression and decompression tool with threads capability
 
 ## Optional Tools
 - **picard** – BAM file cleanup, marking duplicates, etc.  
