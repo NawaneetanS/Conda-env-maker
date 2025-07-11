@@ -30,10 +30,10 @@ optional_tools = {
     "7": "bcftools",      # VCF manipulation, filtering, stats
     "8": "deeptools",     # For ATAC-seq, ChIP-seq visualization
     "9": "qualimap",      # BAM quality checks, useful for RNA-seq
-    "10": "subread",      # FeatureCounts + alignment
-    "11": "hisat2",       # RNA-seq alignment (fast, accurate)
-    "12": "bwa",          # Older bwa - wgs/wxs alignment tool
-    "13": "bwa-mem2"      # Newer bwa - newer wgs/wxs alignment tool
+    "@": "subread",      # FeatureCounts + alignment
+    "#": "hisat2",       # RNA-seq alignment (fast, accurate)
+    "&": "bwa",          # Older bwa - wgs/wxs alignment tool
+    "!": "bwa-mem2"      # Newer bwa - newer wgs/wxs alignment tool
 }
 
 # Print a list of optional tools available
