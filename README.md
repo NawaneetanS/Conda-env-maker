@@ -10,6 +10,7 @@
 - **sra-tools** – Download and convert sequencing data from NCBI SRA  
 - **multiqc** – Aggregates results from QC tools like FastQC into a single report
 - **pigz** - Compression and decompression tool with threads capability
+- **DESeq2** - Normalisation tool for differential gene expression analysis on RNA-Seq data
 
 ## Optional Tools
 - **picard** – BAM file cleanup, marking duplicates, etc.  

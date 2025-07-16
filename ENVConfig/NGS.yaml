@@ -1,0 +1,12 @@
+name: NGS
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+  - fastqc
+  - fastp
+  - samtools
+  - sra-tools
+  - multiqc
+  - pigz

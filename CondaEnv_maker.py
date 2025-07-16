@@ -54,6 +54,7 @@ core_tools = [
     "sra-tools",
     "multiqc",
     "pigz",
+    "bioconductor-deseq2",
 ]
 
 # All req tools
@@ -74,7 +75,7 @@ for tool in all_tools:
     yaml_content += f"  - {tool}\n"
 
 # Write the file with extension .yaml
-with open(f"{env_name}.yaml", "w") as f:
+with open(f"/ENVConfig/{env_name}.yaml", "w") as f:
     f.write(yaml_content)
     
 # Make the conda environment
