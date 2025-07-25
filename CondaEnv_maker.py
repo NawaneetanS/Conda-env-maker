@@ -21,19 +21,20 @@ while True:
         continue
 
 optional_tools = {
-    "1": "picard",        # BAM file cleanup, marking duplicates, etc.
-    "2": "gatk4",         # Variant calling and genome analysis toolkit
-    "3": "htseq",         # Read counting for RNA-seq
-    "4": "stringtie",     # Transcript assembly and quantification
-    "5": "cutadapt",      # Adapter trimming (alternative to fastp)
-    "6": "bedtools",      # Genomic intervals and BED file operations
-    "7": "bcftools",      # VCF manipulation, filtering, stats
-    "8": "deeptools",     # For ATAC-seq, ChIP-seq visualization
-    "9": "qualimap",      # BAM quality checks, useful for RNA-seq
-    "@": "subread",      # FeatureCounts + alignment
-    "#": "hisat2",       # RNA-seq alignment (fast, accurate)
-    "&": "bwa",          # Older bwa - wgs/wxs alignment tool
-    "!": "bwa-mem2",      # Newer bwa - newer wgs/wxs alignment tool
+    "1": "picard",      # BAM file cleanup, marking duplicates, etc.
+    "2": "gatk4",       # Variant calling and genome analysis toolkit
+    "3": "htseq",       # Read counting for RNA-seq
+    "4": "stringtie",   # Transcript assembly and quantification
+    "5": "cutadapt",    # Adapter trimming (alternative to fastp)
+    "6": "bedtools",    # Genomic intervals and BED file operations
+    "7": "bcftools",    # VCF manipulation, filtering, stats
+    "8": "deeptools",   # For ATAC-seq, ChIP-seq visualization
+    "9": "qualimap",    # BAM quality checks, useful for RNA-seq
+    "@": "subread",     # FeatureCounts + alignment
+    "#": "hisat2",      # RNA-seq alignment (fast, accurate)
+    "&": "bwa",         # Older bwa - wgs/wxs alignment tool
+    "!": "bwa-mem2",    # Newer bwa - newer wgs/wxs alignment tool
+    "^": "salmon",      # De novo synthesis
 }
 
 # Print a list of optional tools available
