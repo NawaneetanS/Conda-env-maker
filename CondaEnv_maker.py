@@ -33,7 +33,7 @@ optional_tools = {
     "@": "subread",      # FeatureCounts + alignment
     "#": "hisat2",       # RNA-seq alignment (fast, accurate)
     "&": "bwa",          # Older bwa - wgs/wxs alignment tool
-    "!": "bwa-mem2"      # Newer bwa - newer wgs/wxs alignment tool
+    "!": "bwa-mem2",      # Newer bwa - newer wgs/wxs alignment tool
 }
 
 # Print a list of optional tools available

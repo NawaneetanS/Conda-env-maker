@@ -1,0 +1,6 @@
+# Ignore Vim/temporary/editor swap files
+*.swp
+*.swo
+*~
+.Rhistory
+.RData
