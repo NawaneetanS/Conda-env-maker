@@ -1,6 +1,4 @@
-# Conda environment maker for NGS analysis
-
-**The python file makes conda environment with certain fixed tools and few optional tools.**
+#Conda environment maker for NGS analysis
 
 ## Core Tools
 
@@ -45,3 +43,5 @@
 -   **bwa** - Older wgs/wxs alignment tool
 
 -   **bwa-mem2** - newer wgs/wxs alignment tool
+
+-   **salmon** -  De novo synthesis
